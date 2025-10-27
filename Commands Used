@@ -1,3 +1,6 @@
+--Command used to connect RDS from EC2--
+ubuntu@ip-172-31-10-19 :~ $ mysql -h elevatelabs-database.clq6g2e04v4w.us-east-2.rds.amazonaws.com -u Elevatelabs -p
+
 --Created a database--
 CREATE DATABASE intern_demo;
 
