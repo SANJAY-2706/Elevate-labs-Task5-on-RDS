@@ -1,1 +1,21 @@
+--Created a database--
+CREATE DATABASE intern_demo;
 
+--To use database--
+use intern_demo;
+
+--Created a table--
+CREATE TABLE students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50),
+  domain VARCHAR(30),
+  score INT
+);
+
+--Inserted additional data--
+INSERT INTO students (name, domain, score)
+VALUES ('Aarav', 'Cloud', 95), ('Diya', 'DevOps', 89), ('Sanjay', 'Cloud Engineer', 99);
+
+
+--Verified inserted data--
+Select * FROM students;
